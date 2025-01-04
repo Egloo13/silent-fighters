@@ -15,7 +15,13 @@ header {
     text-align: center;  
 }
 
-img{
+img, #logo {
+    width: 70px;
+    height: 70px;
+    position: left;
+    border: 2px solid black;
+}
+#logo {
     width: 70px;
     height: 70px;
     position: left;
