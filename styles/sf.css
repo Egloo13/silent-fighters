@@ -1,5 +1,7 @@
 body {
-
+width: 100%;
+background-color:rgb(23, 24, 24);
+color:rgb(210, 166, 243);
 }
 header {
     background-image: url(sfbanner.jpg);
@@ -7,7 +9,7 @@ header {
     height:500px;
    background-repeat: no-repeat;
   background-size: cover;
-  text-background-color: blue;
+ 
 }
 #sff {
     font-size: 100px;
@@ -24,12 +26,30 @@ img, #logo{
 #short {
    width: 30px;
     height: 30px;
+    border-radius: 50%;
+    position: center;
     
 }
 footer {
-    
+    background-color:rgb(33, 32, 32);
     color: white;
     text-align: center;
+    height: 500px;
+    margin: 0;
+    width: 100%;
+    
    
+   
+   
+}
+.container {
+   text-align: left;
+   box-sizing: border-box;
+   border-top: 20px solid mistyrose;
+   border-redius: 10px;
+   margin: 0 150px;
+background-color:rgb(48, 20, 20);
+   display: block;
+    padding: 20px;
    
 }
